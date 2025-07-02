@@ -1,18 +1,19 @@
 # sleepy
-Sleepy puts the Windows PC to sleep regularly at the user set time. Sleepy also supports user initiated sleep via hot key. 
+Sleepy puts the Windows PC to sleep regularly at a user set time. Sleepy supports user initiated sleep (nap) via hot key. 
 
 
 SETUP & USAGE: 
 
-How to set the sleep time: 
-On first run, Sleepy will create sleep-time.txt within the folder it resides. Edit sleep-time.txt with Notepad and set the sleep time in 24 hour format. For example, to set a sleep time of 11:30 PM you would set 23:30 
+HOW TO set the sleep time: 
+On first run, Sleepy will create sleep-time.txt within the folder it resides. 
+Edit sleep-time.txt with Notepad and set the sleep time in 24 hour format. For example, to set a sleep time of 11:30 PM you would set 23:30 
 Save sleep-time.txt and reload Sleepy.
 
-How to toggle Sleepy on/off: 
+HOW TO toggle Sleepy on/off: 
 Right click Sleepy from the Windows task tray and click PAUSE. Click again to resume. 
 
-How to start Sleepy automatically with Windows to ensure regular sleep: 
-Click start. Type RUN and press ENTER. Type shell:startup and press ENTER. Drag & drop Sleepy.exe to the startup folder with secondary mouse button and select "Create shortcut here." 
+HOW TO start Sleepy automatically with Windows: 
+Click start. Type RUN and press ENTER. Type SHELL:STARTUP and press ENTER. Drag & drop Sleepy.exe to the startup folder with secondary mouse button and select "Create shortcut here." 
 Sleepy will now start with Windows and put the PC to sleep at the set time.
 
 How to put the PC to sleep manually via hot key: 
