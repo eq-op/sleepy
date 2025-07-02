@@ -4,15 +4,15 @@ Sleepy puts the Windows PC to sleep regularly at a user set time. Sleepy support
 
 SETUP & USAGE: 
 
-HOW TO set the sleep time: 
+How to set the sleep time: 
 On first run, Sleepy will create sleep-time.txt within the folder it resides. 
 Edit sleep-time.txt with Notepad and set the sleep time in 24 hour format. For example, to set a sleep time of 11:30 PM you would set 23:30 
 Save sleep-time.txt and reload Sleepy.
 
-HOW TO toggle Sleepy on/off: 
+How to toggle Sleepy on/off: 
 Right click Sleepy from the Windows task tray and click PAUSE. Click again to resume. 
 
-HOW TO start Sleepy automatically with Windows: 
+How to start Sleepy automatically with Windows: 
 Click start. Type RUN and press ENTER. Type SHELL:STARTUP and press ENTER. Drag & drop Sleepy.exe to the startup folder with secondary mouse button and select "Create shortcut here." 
 Sleepy will now start with Windows and put the PC to sleep at the set time.
 
